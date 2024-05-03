@@ -6,13 +6,13 @@
   <title>AdminLTE 3 | Dashboard 3</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="/assets/https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- IonIcons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="/assets/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/public/assets/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/assets/dist/css/adminlte.min.css">
 </head>
 <!--
 `body` tag options:
@@ -1131,17 +1131,17 @@
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="{{ url ('/public/assets/plugins/jquery/jquery.min.js') }}"></script>
+<script src="{{ url ('/assets/plugins/jquery/jquery.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="{{ url ('/public/assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url ('/assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE -->
-<script src="{{ url ('/public/assets/dist/js/adminlte.js')}}"></script>
+<script src="{{ url ('/assets/dist/js/adminlte.js')}}"></script>
 
 <!-- OPTIONAL SCRIPTS -->
-<script src="{{ url ('/public/assets/plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{ url ('/assets/plugins/chart.js/Chart.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ url ('/public/assets/dist/js/demo.js')}}"></script>
+<script src="{{ url ('/assets/dist/js/demo.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ url ('/public/assets/dist/js/pages/dashboard3.js')}}"></script>
+<script src="{{ url ('/assets/dist/js/pages/dashboard3.js')}}"></script>
 </body>
 </html>
