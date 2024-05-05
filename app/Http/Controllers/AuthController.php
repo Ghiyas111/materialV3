@@ -10,10 +10,6 @@ class AuthController extends Controller
 {
     public function login_admin()
     {
-        if(!empty(Auth::check()) && Auth::user()->is_admin == 1)
-        {
-            return redirect('admin/dashboard');
-        }
         return view('admin.auth.login');
     }
     
