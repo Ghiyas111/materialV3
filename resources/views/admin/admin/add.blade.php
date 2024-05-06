@@ -7,11 +7,8 @@
      <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Admin List</h1>
-          </div>
-          <div class="col-sm-6" style="text-align: right;">
-          <a href="{{ url('admin/admin/add') }}" class="btn btn-primary">Add New Admin</a>
+          <div class="col-sm-12">
+            <h1>Add New Admin</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->

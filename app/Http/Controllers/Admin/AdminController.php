@@ -11,4 +11,13 @@ class AdminController extends Controller
         $data['header_title'] = 'Admin';
         return view('admin.admin.list', $data);
     }
+
+
+
+    public function add()
+    {
+        $data['header_title'] = 'Add New Admin';
+        return view('admin.admin.add', $data);
+    }
+
 }

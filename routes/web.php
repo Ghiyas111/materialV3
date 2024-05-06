@@ -24,9 +24,10 @@ Route::get('admin/logout', [AuthController::class, 'logout_admin']);
 
     Route::group(['middleware' => 'admin'], function (){
 
-    Route::get('admin/dashboard', [DashboardController::class, 'dashboard']);
+    Route::get('admin/dashboard', [DashboardController::class, 'dashboard'])->name('Admin_Dashboard');
 
     Route::get('admin/admin/list', [AdminController::class, 'list']);
+    Route::get('admin/admin/add', [AdminController::class, 'add']);
     
 });
 

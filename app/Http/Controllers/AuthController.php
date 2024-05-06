@@ -18,7 +18,7 @@ class AuthController extends Controller
         $remember = !empty($request->remember) ? true : false;
         if(Auth::attempt(['email' => $request->email, 'password' => $request->password, 'is_admin' => 1], $remember))
         {
-            return redirect('admin/dashboard');
+            return redirect()->route('Admin_Dashboard');
         }
         else
         {
